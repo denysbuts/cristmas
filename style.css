@@ -1,7 +1,9 @@
 @import url("normalize.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
 
 body {
   width: 345px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .header-bg {
@@ -14,6 +16,17 @@ h1 {
   color:#BF0F35;
 }
 
+.header-bg h1 {
+  text-transform: uppercase;
+  text-decoration: underline;
+  letter-spacing: 0.1em;
+}
+
+article > h2 {
+  word-spacing: 0.1em;
+  line-height: 1.5em;
+}
+
 img {
   width: 100%;
 }
@@ -21,6 +34,15 @@ img {
 section .post-content {
   background-color: #BF0F35;
   color: #ffffff;
+}
+
+.post-content h3 {
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.post-content p {
+  text-indent: 0.5em;
 }
 
 .btn {
