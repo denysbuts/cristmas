@@ -1,0 +1,38 @@
+@import url("normalize.css");
+
+body {
+  width: 345px;
+}
+
+.header-bg {
+  background: url('assets/PM-Holiday-Image1.jpg') no-repeat;
+  background-size: cover;
+  height: 10em;
+}
+
+h1 {
+  color:#BF0F35;
+}
+
+img {
+  width: 100%;
+}
+
+section .post-content {
+  background-color: #BF0F35;
+  color: #ffffff;
+}
+
+.btn {
+  border: 0.1em solid #BF0F35;
+  background-color: #ffffff;
+  color: #BF0F35;
+}
+
+.social-media {
+  background-color: #BF0F35;
+}
+
+.social-media > h4 {
+  color: #ffffff;
+}
