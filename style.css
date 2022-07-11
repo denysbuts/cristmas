@@ -27,6 +27,10 @@ article > h2 {
   line-height: 1.5em;
 }
 
+article > h2::first-letter {
+  text-transform: uppercase;
+}
+
 img {
   width: 100%;
 }
@@ -45,10 +49,23 @@ section .post-content {
   text-indent: 0.5em;
 }
 
+.post-content p::first-letter {
+  text-transform: uppercase;
+}
+
+.post-content p::after {
+  content: "...";
+}
+
 .btn {
   border: 0.1em solid #BF0F35;
   background-color: #ffffff;
   color: #BF0F35;
+}
+
+.btn:hover {
+  background-color: #BF0F35;
+  color: #ffffff;
 }
 
 .social-media {
